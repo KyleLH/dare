@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/senddarebutton"
+    android:paddingBottom="15sp"
+    android:paddingLeft="18sp"
+    android:paddingRight="15sp"
+    android:paddingTop="4sp"
+    tools:context=".InboxActivity" >
+    
+
+    <ListView
+        android:id="@+id/daresList"
+        android:paddingTop="80dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#0099FF"
+        android:dividerHeight="2dp"
+        android:layout_centerHorizontal="true" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/dare_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/dares"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textSize="50sp" />
+
+        
+    <Button
+        android:id="@+id/back"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="77dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/getdarebutton"
+        android:text="@string/back"
+        android:textColor="@android:color/white"
+        android:onClick="back_home"
+        android:textSize="15sp" />
+</RelativeLayout>

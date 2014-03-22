@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:windowNoTitle="true" >
+    
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical"
+		    android:weightSum="2"
+		    tools:context=".MainActivity" >
+		
+		    <Button
+		        android:id="@+id/senddare"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:background="@drawable/senddarebutton"
+            android:text="@string/sendadare"
+            android:textColor="@android:color/white"
+            android:textSize="45sp"
+		        android:onClick="send_a_dare" />
+		
+		
+		    <Button
+		        android:id="@+id/getdare"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:background="@drawable/getdarebutton"
+		        android:text="@string/getadare"
+            android:textColor="@android:color/white"
+            android:textSize="45sp"
+		        android:onClick="get_a_dare" />
+		
+		</LinearLayout>
+
+  <LinearLayout
+      android:layout_width="70dp"
+      android:layout_height="60dp"
+      android:orientation="vertical"
+      android:paddingLeft="15dp"
+      android:paddingTop="15dp"
+      tools:context=".MainActivity" >
+
+      <ImageButton
+          android:id="@+id/inbox"
+          android:layout_width="50dp"
+          android:layout_height="35dp"
+          android:background="@drawable/email"
+          android:onClick="goToInbox"
+          android:scaleType="centerInside" />
+
+  </LinearLayout>
+
+</RelativeLayout>

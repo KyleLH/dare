@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SketchyShitEnabler</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sendadare">Send a Dare</string>
+    <string name="getadare">Get a Dare</string>
+    <string name="title_activity_inbox">InboxActivity</string>
+    <string name="title_activity_send_dare">SendDareActivity</string>
+    <string name="back">Back</string>
+    <string name="i_dare_you_to_">I Dare You To...</string>
+    <string name="enter_your_dare">Enter Your Dare</string>
+    <string name="send">Send</string>
+    <string name="inbox">Inbox</string>
+    <string name="title_activity_get_adare">GetADare</string>
+    <string name="dares">Dares</string>
+    <string name="enter_cell_number_string">Enter Cell # ...</string>
+    <string name="browse_string">Browse...</string>
+
+</resources>
